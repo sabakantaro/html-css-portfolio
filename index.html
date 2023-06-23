@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Top Page | Ryosuke's portfolio</title>
+    <link rel="icon" type="image/x-icon" href="assets/icons/my-icon.png">
+    <link rel="stylesheet" href="assets/css/styles.css" />
+  </head>
+
+  <body>
+    <header>
+      <nav class="top-nav">
+        <h1><a href="index.html">Ryosuke's Portfolio</a></h1>
+        <input id="menu-toggle" type="checkbox" />
+        <label class='menu-button-container' for="menu-toggle">
+          <div class='menu-button'></div>
+        </label>
+        <ul class="menu">
+          <li><a href="index.html#about" class="nav-link">About</a></li>
+          <li><a href="skills.html" class="nav-link">Skills</a></li>
+          <li><a href="projects.html" class="nav-link">Projects</a></li>
+          <li><a href="contact.html" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="hero-frame">
+          <img
+            src="assets/images/hero-image.jpg"
+            alt="hero-image"
+            loading="lazy"
+            class="hero-img"
+          />
+          <div class="ellipse-1"></div>
+          <div class="ellipse-2"></div>
+          <div class="ellipse-3"></div>
+        </div>
+        <div class="about">
+          <h3 class="about-title">Ryosuke Yano</h3>
+          <p class="about-text">
+            I am a Full Stack Developer,<br>
+            skilled in user-friendly design.
+          </p>
+          <div class="about-btn-frame">
+            <a class="about-btn" href="index.html#about">About</a>
+            <a class="about-btn" href="skills.html">Skills</a>
+            <a class="about-btn" href="projects.html">Projects</a>
+            <a class="about-btn" href="contact.html">Contact</a>
+          </div>
+        </div>
+      </section>
+      <section id="about" class="about-detail">
+        <h2>ABOUT</h2>
+        <div class="about-detail-frame">
+          <img
+            src="assets/images/about-image.jpg"
+            alt="about-image"
+            loading="lazy"
+            class="about-img"
+          />
+          <div>
+            <h3>Here is my background</h3>
+            <br>
+            <p>
+              I'm a Full Stack Developer with strong points for problem-solving and turning ideas into reality. With a solid background in system design and extensive experience in user-oriented development and code reviewing, I thrive in fast-paced environments and enjoy tackling complex challenges. I'm excited to leverage my expertise to make a positive impact through technology.
+            </p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p>Copyright &copy; 2023 created by Ryosuke Yano</p>
+    </footer>
+  </body>
+</html>
